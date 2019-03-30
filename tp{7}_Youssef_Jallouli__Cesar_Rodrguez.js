@@ -10,7 +10,7 @@
 var creerHistoire = function(n) {
   switch (n > 0 && tab1 == "") {
     case true:
-      var trois_d = " Entrez une phrase!";
+      var trois_d = "Entrez une phrase";
       var phrase = prompt(trois_d);
       var last_3_words = phrase.split(" ");
       tab1 = last_3_words;
@@ -47,4 +47,3 @@ do {
 var tab1 = "";
 var histoire = creerHistoire(n);
 print(histoire);
-
